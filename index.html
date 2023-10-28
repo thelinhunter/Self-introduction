@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src='https://www.w3schools.cn/fonts/kit/a076d05399.js'></script>
+        <title>About me</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <h1 class="Top"><a href="#top">My website</a></h1>
+                <ul>
+                    <li><a href="#intro">Introduction & Experience</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </div>
+        </nav>
+        <div class="top">
+            <div class="card">
+                <img src="./pic/zixuan.jpg">
+                <h1>Wei Zixuan</h1>
+                <h2>Postgraduate student from PolyU</h2>
+                <p class="dob"><i class="far fa-calendar-alt"></i> Date of Birth: 16 March, 2002</p>
+                <p class="nickname">Game ID/Nickname: linhunter</p>
+            </div>
+        </div>
+        <section class="container">
+            <h1 id="intro" class="title">Introduction & Experience</h1>
+            <p class="content">
+                My name is Wei Zixuan, I can speak Chinese, English and Japanese and a little bit Spainish. I am currently a postgraduate student from PolyU at the IT department.</br></br>
+                I majored in Python in the past 4 years, during my undergraduate, most of my work was done in Python, so I have confidence to use Python better than other programming languages. I can program with JAVA as well if required. I am not familiar with HTML/CSS/JavaScript, but I am quite excited to improve them.</br></br>
+                I had created a music project with my friend for fun, this is an interesting project to me. The link of this project can be found in GitHub called <a href="https://github.com/thelinhunter/MidiUtilHelper">MidiUtilHelper</a>. The application case can be found in YouTube:</br></br>
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RKwzMfCgbug?si=mvJh97NFx-D8w1W_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1 id="hobby" class="title">Hobby</h1>
+            <p class="content">
+                I am a video game player in great passion, I have my own Nintendo Switch (mainly for playing Zelda and Mario kart) and Xbox. Mainly, I prefer to play games in my PC and I spend most of my game time on <a href="https://steamcommunity.com/id/linhunter">Steam</a> to play <a>Dota2</a> and <a>Counter Strike</a>. I am a Monster Hunter player as well, and this is where my nickname "linhunter" from.</br></br>
+                I am also a <abbr title="Trading Card Game">TCG</abbr> player. Yugioh! is my favourite TCG, the decks I played are Blueeyes, <a>Drytron</a> and <a>Dragon link</a>. I have also attended some small events of Yugioh.
+                Another TCG I played is Pokemon, but I spend more on collections for PTCG. Here are some of my decks and collections:</br></br>
+            </p>
+        </section>
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./pic/drytron.jpg');width:50vw;height:60vh;"></div>
+            <div class="slide" style="background-image: url('./pic/dragon_link.jpg');width:50vw;height:60vh;"></div>
+            <div class="slide" style="background-image: url('./pic/tcg_1.jpg');width:50vw;height:60vh;"></div>
+            <div class="slide" style="background-image: url('./pic/tcg_2.jpg');width:50vw;height:60vh;"></div>
+            <div class="slide" style="background-image: url('./pic/tcg_3.jpg');width:50vw;height:60vh;"></div>
+            <div class="slide" style="background-image: url('./pic/tcg_4.jpg');width:50vw;height:60vh;"></div>
+        </div>
+        <button class="arrow left-arrow" id="left">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="arrow right-arrow" id="right">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+        <section class="container" id="contact">
+            <h1 class="title">Contact</h1>
+            <p class="content">You can contact me via:</br>
+                <i class="fa fa-phone"></i> +86 13764647948 (Mainland China) +852 5683 3415 (Hong Kong)</br>
+                <i class="fa fa-envelope"></i> 23105946g@connect.polyu.hk (Student email) / thelinhunter@gmail.com (Personal email)</br>
+                Wechat: thelinhunter
+            </p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+ }
+
+.nav a:hover {
+    color: #c00;
+}
+
+.nav.active {
+    background-color: #000;
+    opacity: 1;
+}
+
+.nav.active .container {
+    padding: 10px 0px;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    background-image: url("./pic/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    min-height: 300px;
+}
+
+.card img {
+    width: 35%;
+    height: 40%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.card h1 {
+    color: #fff;
+    font-size: 2vw;
+    padding-top: 20px;
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.card .dob {
+    color: #fff;
+    font-size: 1vw;
+    opacity: 0.8;
+}
+
+.card .nickname {
+    color: #fff;
+    font-size: 1vw;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 200%;
+}
+
+.content {
+    font-size: 105%;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+
+.display-div {
+    width: 100vw;
+}
+
+.slider{
+    position: relative;
+    left: 25%;
+    height: 60vh;
+    width: 60vw;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0;
+    z-index: 1;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.arrow {
+    position: relative;
+    color: #000;
+    background-color: transparent;
+    font-size: 30px;
+    border: 0;
+    transform: translateY(-30vh);
+}
+
+.left-arrow {
+    left: 15%;
+}
+  
+.right-arrow {
+    left: 80%;
+}
