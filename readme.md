@@ -2,6 +2,8 @@
 ## Brief Introduction
 This website is created for the mid project of COMP5322.
 ## Characteristics of the web
+### Overall features
++ Almost all elements within the web page is adaptive to the page size, expect some paddings or font-size which is defines as px. However, since there is minimum of the web page, all elements will display at the designed position.
 ### Navigation bar
 + The navigation bar is always fixed at the top of the website.
 + The opacity of the navigation bar is 0.75 when at the top of the website to show part of the background image. By scrolling down, it will become shorter and the background of the navigation bar will be purely black. Transition is used in this process.
